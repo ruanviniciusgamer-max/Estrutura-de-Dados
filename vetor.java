@@ -11,7 +11,16 @@ public class vetor{
         String msg = "Vetor de valores reais";
         visualizaVetor(msg, a);
         System.out.println();
-        visualizaVetor(msg, a);
+        //visualizaVetor(msg, a);
+        calculaSomadosElementos(a);
+    }
+
+    public void calculaSomadosElementos(double vet []) {
+        double soma = 0;
+        for (int i = 0; i < vet.length; i++) {
+            soma = soma + vet[i];
+        }
+        System.out.println("Soma dos valores do vetor: " + soma);
     }
 
     public void visualizaVetor(String mensagem, double vet[]){
