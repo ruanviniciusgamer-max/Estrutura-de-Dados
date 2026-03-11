@@ -10,6 +10,8 @@ public class vetor{
         double a[] = {10, 20, 30, 4.3, 3.2, -1, -2};
         String msg = "Vetor de valores reais";
         visualizaVetor(msg, a);
+        System.out.println();
+        visualizaVetor(msg, a);
     }
 
     public void visualizaVetor(String mensagem, double vet[]){
